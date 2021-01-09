@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Qwigley;
+  src: url('Qwigley.ttf')
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+.circle {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+  width: 100px;
+  height: 100px;
+  background: #D1B1CB;
+  border-radius: 50%
+}
+
+#getStartedHeader{
+  font-family: Qwigley;
+}
+
+.circle-header {
+  font-size: 30px;
+  font-family: monospace;
+}
+h1{
+  font-family:'Roboto', sans-serif;
+}
+.rectangle{
+  width: 700px;
+  height: 100px;
+  background: #DDCAD9;
+}
+
+.top{
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  height: 81px;
+}
+
+.topHeader{
+  color: #7C616C;
+}
+
+.main{
+
+  position: absolute;
+  width: 1290px;
+  height: 660px;
+  left: 100px;
+}
+
+.notactive{
+  text-decoration: none;
+}
+
+.main-header{
+  font-size: 96px;
+  color: #7C616C;
+}

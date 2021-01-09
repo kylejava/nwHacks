@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet"href="{{ url_for('static', filename='stylesheets/index.css') }}">
+    <link rel="stylesheet"href="{{ url_for('static', filename='stylesheets/templates.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>CardFolio</title>
     <style media="screen">
@@ -27,13 +27,18 @@
       <div class="container-fluid">
         <p class="topHeader">CardFolio</p>
         <form>
-          <a href="#" class="p-2 active">Home</a>
+          <a href="/" class="p-2 notactive">Home</a>
           <a href="/getstarted" class="p-2 notactive">Get Started</a>
           <a href="#" class="p-2 notactive">About</a>
           <a href="#" class="p-2 notactive">Contact</a>
         </form>
       </div>
     </nav>
+    <div class="container">
+      <div class="text-center py-5">
+        <h1 class="divHeader">Templates Offered</h1>
+      </div>
+    </div>
 
     <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-auth.js"></script>

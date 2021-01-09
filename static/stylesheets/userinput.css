@@ -1,0 +1,21 @@
+.notactive{
+  text-decoration: none;
+}
+.topHeader{
+  color: #7C616C;
+}
+.fancyText{
+  font-family: Qwigley;
+}
+
+.divHeader{
+  font-family: Qwigley;
+  font-size: 76px;
+  color:  #7C616C;
+}
+
+.rectangle{
+  width: 250px;
+  height: 50px;
+  background: #DDCAD9;
+}
