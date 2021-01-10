@@ -4,3 +4,8 @@
 .topHeader{
   color: #7C616C;
 }
+
+h1 {
+    text-align: center;
+    font-family: Qwigley;
+}
