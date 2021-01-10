@@ -60,8 +60,14 @@
         <div class="mb-3 container">
           <input  type="input" id = "company" placeholder="Your Buiessness/Company"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
-
-        <a href="/templates" class="container px-5" style = "text-decoration: none;">
+        <div class="mb-3 container">
+          <select id="template-selection"name="template-selection">
+            <option value="template-one">Template 1</option>
+            <option value="template-two">Template 2</option>
+            <option value="template-three">Template 3</option>
+          </select>
+        </div>
+        <a class="container px-5 py-5" style = "text-decoration: none;">
           <div class="rectangle">
             <h1 class="fancyText text-center">Create Card!</h1>
           </div>
@@ -84,6 +90,8 @@
       document.getElementById('position').style.fontSize="25pt";
       document.getElementById('company').style.height="75px";
       document.getElementById('company').style.fontSize="25pt";
+      document.getElementById('template-selection').style.height="75px";
+      document.getElementById('template-selection').style.fontSize="25pt";
     </script>
   </body>
 </html>

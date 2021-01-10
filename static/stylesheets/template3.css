@@ -1,3 +1,13 @@
+
+.notactive{
+  text-decoration: none;
+}
+.topHeader{
+  color: #7C616C;
+}
+.fancyText{
+  font-family: Qwigley;
+}
 .template-three{
   width: 433px;
   height: 221px;

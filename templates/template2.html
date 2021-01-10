@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-<div class="row py-2"> <!-- Template 2 -->
-          <div class="col">
-            <div class="template-two text-center">
-              <div class="pt-5">
-                <h1>Full Name</h1>
-                <h2>Position/Role</h2>
-              </div>
+    <link rel="stylesheet"href="{{ url_for('static', filename='stylesheets/template2.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>CardFolio</title>
+    <style media="screen">
+      @font-face{
+        font-family: Qwigley;
+        src: url(../static/Qwigley.ttf);
+      }
+      @font-face{
+        font-family: RedRose;
+        src: url(../static/RedRose.ttf);
+      }
+      @font-face{
+        font-family: MeriendaOne;
+        src: url(../static/MeriendaOne.ttf);
+      }
+      @font-face{
+        font-family: Imbue;
+        src: url(../static/Imbue.ttf);
+      }
+      .top{
+        background-color: white;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        height: 81px;
+        font-family: Qwigley;
+        font-size: 48px;
+      }
+      a{
+        color: #7C616C;
+      }
+    </style>
+  </head>
+  <body style = "background-color: #E5E9EC;">
+    <nav class="navbar top navbar-light bg-light">
+      <div class="container-fluid">
+        <p class="topHeader">CardFolio</p>
+        <form>
+          <a href="/" class="p-2 notactive">Home</a>
+          <a href="/getstarted" class="p-2 notactive">Get Started</a>
+          <a href="#" class="p-2 notactive">About</a>
+          <a href="#" class="p-2 notactive">Contact</a>
+        </form>
+      </div>
+    </nav>
+    <div class="container py-5">
+      <h1 class="text-center">Your New Buisness Card!</h1>
+      <div class="row py-2"> <!-- Template 2 -->
+        <div class="col">
+          <div class="template-two text-center">
+            <div class="pt-5">
+              <h1>Full Name</h1>
+              <h2>Position/Role</h2>
             </div>
           </div>
-          <div class="col">
-            <div class="template-two">
-              <div class="template-two-back">
-                <h1>Full Name</h1>
-                <h2>Position/Role</h2>
-                <div class="template-two-bottom">
-                  <h5>Phone Number</h5>
-                  <h5>Email</h5>
-                  <h5>Website</h5>
-                  <h5>Address</h5>
-                </div>
+        </div>
+        <div class="col">
+          <div class="template-two">
+            <div class="template-two-back">
+              <h1>Full Name</h1>
+              <h2>Position/Role</h2>
+              <div class="template-two-bottom">
+                <h5>Phone Number</h5>
+                <h5>Email</h5>
+                <h5>Website</h5>
+                <h5>Address</h5>
               </div>
             </div>
           </div>
         </div>
-</body>
+      </div>
+    </div>
+  </body>
 </html>
