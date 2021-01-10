@@ -41,24 +41,24 @@
       <div class="container text-center py-5">
         <h1 class="divHeader">Input Your Information</h1>
       </div>
-      <form class="" action="/getstarted" method="post">
+      <form  method='POST'>
         <div class="mb-3 container">
-          <input  type="input" id = "name" placeholder="First & Last Name"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input  type="input" name = "name" id = "name" placeholder="First & Last Name"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3 container">
-          <input  type="input" id = "email" placeholder="Email Address"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input  type="input" name = "email"id = "email" placeholder="Email Address"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3 container">
-          <input  type="input" id = "phonenumber" placeholder="Phone Number"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input  type="input" name = "phonenumber" id = "phonenumber" placeholder="Phone Number"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3 container">
-          <input  type="input" id = "address" placeholder="Address"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input  type="input" name = "address" id = "address" placeholder="Address"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3 container">
-          <input  type="input" id = "position" placeholder="Your Position"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input  type="input" name = "position" id = "position" placeholder="Your Position/Role"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3 container">
-          <input  type="input" id = "company" placeholder="Your Buiessness/Company"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input  type="input" name = "website" id = "website" placeholder="Your Website"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3 container">
           <select id="template-selection"name="template-selection">
@@ -67,11 +67,7 @@
             <option value="template-three">Template 3</option>
           </select>
         </div>
-        <a class="container px-5 py-5" style = "text-decoration: none;">
-          <div class="rectangle">
-            <h1 class="fancyText text-center">Create Card!</h1>
-          </div>
-        </a>
+        <input class="ml-2"type="Submit" name="" value="Create Card!">
       </form>
     </div>
     <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
