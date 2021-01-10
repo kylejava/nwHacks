@@ -1,0 +1,19 @@
+.template-two{
+  width: 433px;
+  height: 221px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-family: MeriendaOne;
+}
+
+.template-two-front{
+  vertical-align: middle;
+  line-height: 221px;
+}
+
+.template-two-bottom{
+  width: 433px;
+  height: 120px;
+  border-radius: 10px;
+  background: #E3E0E0;
+}
