@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"href="{{ url_for('static', filename='stylesheets/template1.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>CardFolio</title>
+    <style media="screen">
+      @font-face{
+        font-family: Qwigley;
+        src: url(../static/Qwigley.ttf);
+      }
+      @font-face{
+        font-family: RedRose;
+        src: url(../static/RedRose.ttf);
+      }
+      @font-face{
+        font-family: MeriendaOne;
+        src: url(../static/MeriendaOne.ttf);
+      }
+      @font-face{
+        font-family: Imbue;
+        src: url(../static/Imbue.ttf);
+      }
+      .top{
+        background-color: white;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        height: 81px;
+        font-family: Qwigley;
+        font-size: 48px;
+      }
+      a{
+        color: #7C616C;
+      }
+      </style>
+  </head>
+  <body>
+    <nav class="navbar top navbar-light bg-light">
+      <div class="container-fluid">
+        <p class="topHeader">CardFolio</p>
+        <form>
+          <a href="/" class="p-2 notactive">Home</a>
+          <a href="/getstarted" class="p-2 notactive">Get Started</a>
+          <a href="#" class="p-2 notactive">About</a>
+          <a href="#" class="p-2 notactive">Contact</a>
+        </form>
+      </div>
+    </nav>
+    <div class="container py-5">
+      <h1 class="text-center">Your New Buisness Card!</h1>
+      <div class="row py-5 "> <!-- Template 1 -->
+        <div class="col">
+          <div class="template-one">
+            <h3 id="template-one-front">Company Name</h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="template-one">
+            <div class="row template-one-back pt-5">
+              <div class="col-sm-5 template-one-back text-end">
+                <h1>Name</h1>
+                <h5>Position</h5>
+              </div>
+              <div class="col-sm-1 template-one-back">
+                <div class="divider">
+
+                </div>
+              </div>
+              <div class="col-sm-6 template-one-back text-start">
+                <h5 >Phone Number</h5>
+                <h5 >Email Address</h5>
+                <h5 >Website</h5>
+                <h5 >Address</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

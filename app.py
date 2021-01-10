@@ -25,5 +25,9 @@ def teplates():
 def userinput():
     return render_template('userinput.html')
 
+@app.route('/template1' , methods = ['GET' , 'POST'])
+def template1():
+    return render_template('template1.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
