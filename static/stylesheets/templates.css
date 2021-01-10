@@ -13,3 +13,24 @@
   font-size: 76px;
   color:  #7C616C;
 }
+
+.template-one{
+  width: 433px;
+  height: 221px;
+  background: #FDF2FC;
+  border-radius: 10px;
+}
+
+.template-two{
+  width: 433px;
+  height: 221px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.template-three{
+  width: 433px;
+  height: 221px;
+  background: #ede9cf;
+  border-radius: 10px;
+}
