@@ -10,6 +10,10 @@
         font-family: Qwigley;
         src: url(../static/Qwigley.ttf);
       }
+      @font-face{
+        font-family: Farsan;
+        src: url(../static/Farsan.ttf);
+      }
       .top{
         background-color: white;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -35,25 +39,42 @@
       </div>
     </nav>
 
-    <div class="main">
-      <div class="row text-center ">
-        <h1 class= "cardfolio">CardFolio</h1>
-
-      <div class="row">
+    <div class="container main">
+      <div class="row py-5">
         <div class="col">
-          <h2 class="problem">Problem</h2>
-          <p>Many people going into the work place did not have their own card to share with hiring professionals</p>
+
+        </div>
+        <div class="col-lg-8">
+          <div class="logo">
+            <h1 class= "text-center logo-header">CardFolio</h1>
+            
+            <img src="../static/key.png" class="text-center logo-photo">
+          </div>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
+      <div class="row py-5 text-center">
+        <div class="col">
+          <div class="rectangle">
+            <h1 class="cardHeader">Problem</h1>
+            <h class="cardBody">Many people going into the work place did not have their own card to share with hiring professionals</p>
+          </div>
         </div>
 
         <div class="col">
-          <h3 class="solution">Solution</h3>
-          <p>CardFolio was created to help people who want to create their own business card and help their professional work</p>
+          <div class="rectangle">
+            <h3 class="cardHeader">Solution</h3>
+            <p class="cardBody">CardFolio was created to help people who want to create their own business card and help their professional work</p>
+          </div>
         </div>
 
         <div class="col">
-          <h4 class="whyusecardfolio">Why use CardFolio</h4>
-          <p>CardFolio is a great way to market yourself and network with others by having your own business card to share!</p>
-        </div>
+          <div class="rectangle">
+            <h4 class="cardHeader">Why use CardFolio</h4>
+            <p class="cardBody">CardFolio is a great way to market yourself and network with others by having your own business card to share!</p>
+          </div>
         </div>
       </div>
     </div>

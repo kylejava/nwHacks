@@ -9,3 +9,57 @@ h1 {
     text-align: center;
     font-family: Qwigley;
 }
+
+.logo{
+  width: 620px;
+  height: 337px;
+  background: #7C616C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.logo-header{
+  font-family: Qwigley;
+  color: #D1B1CB;
+  font-size: 200px;
+}
+
+.logo-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.rectangle{
+  width: 406px;
+  height: 310px;
+  border-radius: 10px;
+  background: #7C616C;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardHeader{
+  font-family: Qwigley;
+  font-size: 64px;
+  line-height: 80px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #D1B1CB;
+}
+
+.cardBody{
+  font-family: Farsan;
+  font-size: 35px;
+  line-height: 42px;
+  color: #E5E9EC;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
