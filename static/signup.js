@@ -7,7 +7,7 @@ function createUser() {
       if (user) {
         user.sendEmailVerification().then(function() {
           // Email sent.
-          location.href = '/';
+          location.href = '/templates';
         }).catch(function(error) {
           // An error happened.
         });
