@@ -14,6 +14,10 @@
         font-family: RedRose;
         src: url(../static/RedRose.ttf);
       }
+      @font-face{
+        font-family: MeriendaOne;
+        src: url(../static/MeriendaOne.ttf);
+      }
       .top{
         background-color: white;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -42,8 +46,8 @@
       <div class="text-center pt-2">
         <h1 class="divHeader">Templates Offered</h1>
       </div>
-      <div class="container text-center">
-        <div class="row py-2"> <!-- Show which side is front and back  -->
+      <div class="container">
+        <div class="row py-2 text-center"> <!-- Show which side is front and back  -->
           <div class="col">
             <h3>Front Side</h3>
           </div>
@@ -81,13 +85,25 @@
         </div>
         <div class="row py-2"> <!-- Template 2 -->
           <div class="col">
-            <div class="template-two">
-
+            <div class="template-two text-center">
+              <div class="pt-5">
+                <h1>Full Name</h1>
+                <h2>Position/Role</h2>
+              </div>
             </div>
           </div>
           <div class="col">
             <div class="template-two">
-
+              <div class="template-two-back">
+                <h1>Full Name</h1>
+                <h2>Position/Role</h2>
+                <div class="template-two-bottom">
+                  <h5>Phone Number</h5>
+                  <h5>Email</h5>
+                  <h5>Website</h5>
+                  <h5>Address</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -105,7 +121,6 @@
         </div>
       </div>
     </div>
-
     <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-auth.js"></script>
   </body>
