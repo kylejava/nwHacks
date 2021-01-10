@@ -10,6 +10,10 @@
         font-family: Qwigley;
         src: url(../static/Qwigley.ttf);
       }
+      @font-face{
+        font-family: RedRose;
+        src: url(../static/RedRose.ttf);
+      }
       .top{
         background-color: white;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -50,12 +54,28 @@
         <div class="row py-2"> <!-- Template 1 -->
           <div class="col">
             <div class="template-one">
-
+              <h3 id="template-one-front">Company Name</h3>
             </div>
           </div>
           <div class="col">
             <div class="template-one">
+              <div class="row template-one-back pt-5">
+                <div class="col-sm-5 template-one-back text-end">
+                  <h1>Name</h1>
+                  <h5>Position</h5>
+                </div>
+                <div class="col-sm-1 template-one-back">
+                  <div class="divider">
 
+                  </div>
+                </div>
+                <div class="col-sm-6 template-one-back text-start">
+                  <h5 >Phone Number</h5>
+                  <h5 >Email Address</h5>
+                  <h5 >Website</h5>
+                  <h5 >Address</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>

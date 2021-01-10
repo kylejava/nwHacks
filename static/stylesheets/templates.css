@@ -19,6 +19,26 @@
   height: 221px;
   background: #FDF2FC;
   border-radius: 10px;
+  font-family: RedRose;
+}
+
+#template-one-front{
+  font-family: RedRose;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 221px;
+}
+
+.template-one-back{
+  font-family: RedRose;
+  vertical-align: middle;
+  line-height: 221px;
+}
+
+.divider{
+  width: 2px;
+  height: 150px;
+  background-color: #C4C4C4;
 }
 
 .template-two{
