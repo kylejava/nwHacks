@@ -18,8 +18,9 @@
 }
 
 .circle-header {
-  font-size: 30px;
-  font-family: monospace;
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: bold;
 }
 h1{
   font-family:'Roboto', sans-serif;
@@ -65,4 +66,18 @@ h1{
   border-radius: 8px;
 }
 
-.inner-text
+.inner-text{
+  font-family: Roboto;
+  vertical-align: middle;
+
+}
+
+input[type=submit]{
+  width: 314px;
+height: 108px;
+background: #DDCAD9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+font-size: 20px;
+font-family: Roboto;
+}
